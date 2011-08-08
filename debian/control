@@ -1,0 +1,14 @@
+Source: python-django-storages
+Section: python
+Priority: optional
+Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
+Uploaders: Jon Rohan <jon@simplegeo.com>
+Build-Depends: cdbs, debhelper (>= 7), python, python-support, python-setuptools
+Standards-Version: 3.8.4
+Homepage: https://github.com/simplegeo/django-storages
+
+Package: python-django-storages
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: django-storages
+ Support for many storages (S3, MogileFS, etc) in Django.
